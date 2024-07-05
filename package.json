@@ -1,0 +1,23 @@
+{
+  "name": "tg-bot",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun --watch run ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@grammyjs/conversations": "^1.2.0",
+    "@grammyjs/files": "^1.1.1",
+    "@grammyjs/menu": "^1.2.2",
+    "@grammyjs/runner": "^2.0.3",
+    "@roziscoding/grammy-autoquote": "^2.0.6",
+    "grammy": "^1.26.0",
+    "viem": "^2.17.0"
+  }
+}
